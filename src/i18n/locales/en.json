@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "social": "Social",
+    "improvementHistory": "History"
+  },
+  "hero": {
+    "badge": "AI & Productivity",
+    "title": "Boost Productivity with AI",
+    "subtitle": "Explore AI tools and techniques to enhance your efficiency and creativity",
+    "viewBlog": "View Blog",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "aiTools": {
+      "title": "AI Tools",
+      "description": "Discover the latest AI tools and applications to automate your workflow"
+    },
+    "productivity": {
+      "title": "Productivity Tips",
+      "description": "Learn methods and best practices to boost your efficiency"
+    },
+    "tutorials": {
+      "title": "Tutorials",
+      "description": "Detailed tutorials and guides to help you master new skills"
+    }
+  },
+  "latestPosts": {
+    "title": "Latest Posts",
+    "readMore": "Read More",
+    "viewAll": "View All"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "What is OP Studio?",
+      "answer": "OP Studio is a tech blog platform focused on AI automation and developer productivity."
+    },
+    "q2": {
+      "question": "What is Claude Code?",
+      "answer": "Claude Code is an AI programming assistant developed by Anthropic that helps developers improve coding efficiency."
+    },
+    "q3": {
+      "question": "What is MCP?",
+      "answer": "MCP (Model Context Protocol) is a protocol for communication between AI models and tools."
+    },
+    "q4": {
+      "question": "What topics does the blog cover?",
+      "answer": "Our blog covers AI tools, automation, developer tools, productivity tips, and more."
+    },
+    "q5": {
+      "question": "How can I contact the author?",
+      "answer": "You can reach us through social media or the contact page."
+    }
+  },
+  "footer": {
+    "description": "Explore AI tools and techniques to boost your productivity",
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "blog": "Blog",
+      "about": "About",
+      "contact": "Contact",
+      "social": "Social",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "copyright": "© 2025 OP Studio. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "notFound": "Not Found",
+    "search": "Search",
+    "publishedAt": "Published on",
+    "readingTime": "{minutes} min read"
+  }
+}

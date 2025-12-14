@@ -1,0 +1,86 @@
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616153837,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616153837,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616153968},"timestamp":1765616153968,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616153976,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616154496,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616154497,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616154537,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616154537,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616154550,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616154550,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616154551,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616154551,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616156034,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616156034,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616156131},"timestamp":1765616156131,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616156138,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/layout.tsx:28","message":"Before import messages","data":{"locale":"zh"},"timestamp":1765616156143,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/layout.tsx:31","message":"Messages loaded","data":{"locale":"zh","hasMessages":true,"messageKeys":["nav","hero","features","latestPosts","faq"]},"timestamp":1765616156152,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616156411,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616156411,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616156420,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616156420,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616156420,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616156420,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616169274,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616169274,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/layout.tsx:12","message":"RootLayout entry","data":{"hasStackClientApp":true},"timestamp":1765616169371,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616169385},"timestamp":1765616169385,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616169395,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/layout.tsx:28","message":"Before import messages","data":{"locale":"zh"},"timestamp":1765616169405,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/layout.tsx:31","message":"Messages loaded","data":{"locale":"zh","hasMessages":true,"messageKeys":["nav","hero","features","latestPosts","faq"]},"timestamp":1765616169407,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616169439,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616169439,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/layout.tsx:12","message":"RootLayout entry","data":{"hasStackClientApp":true},"timestamp":1765616169475,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616169478},"timestamp":1765616169478,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616169478,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/layout.tsx:28","message":"Before import messages","data":{"locale":"zh"},"timestamp":1765616169483,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/layout.tsx:31","message":"Messages loaded","data":{"locale":"zh","hasMessages":true,"messageKeys":["nav","hero","features","latestPosts","faq"]},"timestamp":1765616169486,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616169504,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616169504,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/layout.tsx:12","message":"RootLayout entry","data":{"hasStackClientApp":true},"timestamp":1765616169533,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616169536},"timestamp":1765616169536,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616169536,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/layout.tsx:28","message":"Before import messages","data":{"locale":"zh"},"timestamp":1765616169542,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/layout.tsx:31","message":"Messages loaded","data":{"locale":"zh","hasMessages":true,"messageKeys":["nav","hero","features","latestPosts","faq"]},"timestamp":1765616169544,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616170948,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616170948,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/blog","method":"GET"},"timestamp":1765616171630,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/blog"},"timestamp":1765616171631,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/blog","method":"GET"},"timestamp":1765616171667,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/blog"},"timestamp":1765616171667,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616171865,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616171865,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616173208,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616173208,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/layout.tsx:12","message":"RootLayout entry","data":{"hasStackClientApp":true},"timestamp":1765616173239,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616173242},"timestamp":1765616173242,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616173242,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/layout.tsx:28","message":"Before import messages","data":{"locale":"zh"},"timestamp":1765616173248,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/layout.tsx:31","message":"Messages loaded","data":{"locale":"zh","hasMessages":true,"messageKeys":["nav","hero","features","latestPosts","faq"]},"timestamp":1765616173250,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616173444,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616173445,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616173594,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616173595,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616173602,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616173602,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616173700,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616173700,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616173700,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616173700,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616184757,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616184757,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"app/layout.tsx:12","message":"RootLayout entry","data":{"hasStackClientApp":true},"timestamp":1765616184854,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"app/[locale]/page.tsx:6","message":"Home component entry","data":{"timestamp":1765616184860},"timestamp":1765616184860,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:10","message":"Before prisma query","data":{"hasPrisma":true},"timestamp":1765616184867,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/layout.tsx:28","message":"Before import messages","data":{"locale":"zh"},"timestamp":1765616184873,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/layout.tsx:31","message":"Messages loaded","data":{"locale":"zh","hasMessages":true,"messageKeys":["nav","hero","features","latestPosts","faq"]},"timestamp":1765616184875,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"app/[locale]/page.tsx:28","message":"After prisma query success","data":{"postsCount":0},"timestamp":1765616185133,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"app/[locale]/page.tsx:37","message":"Before render","data":{"postsCount":0},"timestamp":1765616185133,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"src/components/PostList.tsx:13","message":"PostList render","data":{"postsCount":0,"locale":"zh","hasPostTags":false},"timestamp":1765616185136,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616185143,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616185144,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:6","message":"Hero component entry","data":{},"timestamp":1765616185144,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"src/components/Hero.tsx:10","message":"useTranslations success","data":{"hasT":true},"timestamp":1765616185144,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"middleware.ts:9","message":"Middleware entry","data":{"pathname":"/","method":"GET"},"timestamp":1765616227815,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"middleware.ts:50","message":"Applying i18n middleware","data":{"pathname":"/"},"timestamp":1765616227815,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}

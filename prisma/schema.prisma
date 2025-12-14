@@ -1,0 +1,176 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// 管理员表
+model Admin {
+  id            Int            @id @default(autoincrement())
+  email         String         @unique
+  passwordHash  String         @map("password_hash")
+  name          String?
+  avatarUrl     String?        @map("avatar_url")
+  role          String         @default("admin") // admin, editor
+  createdAt     DateTime       @default(now()) @map("created_at")
+  lastLoginAt   DateTime?      @map("last_login_at")
+
+  // Relations
+  posts         Post[]
+  mediaUploads  Media[]
+  activityLogs  ActivityLog[]
+
+  @@map("admins")
+}
+
+// 文章表
+model Post {
+  id              Int              @id @default(autoincrement())
+  slug            String           @unique
+
+  // 多语言内容
+  titleZh         String?          @map("title_zh")
+  titleEn         String?          @map("title_en")
+  titleJa         String?          @map("title_ja")
+  titleKo         String?          @map("title_ko")
+
+  contentZh       String?          @db.Text @map("content_zh")
+  contentEn       String?          @db.Text @map("content_en")
+  contentJa       String?          @db.Text @map("content_ja")
+  contentKo       String?          @db.Text @map("content_ko")
+
+  excerptZh       String?          @db.Text @map("excerpt_zh")
+  excerptEn       String?          @db.Text @map("excerpt_en")
+  excerptJa       String?          @db.Text @map("excerpt_ja")
+  excerptKo       String?          @db.Text @map("excerpt_ko")
+
+  // 媒体
+  thumbnailUrl    String?          @map("thumbnail_url")
+  coverUrl        String?          @map("cover_url")
+
+  // 状态管理
+  status          String           @default("draft") // draft, published, scheduled, archived
+  publishedAt     DateTime?        @map("published_at")
+  scheduledAt     DateTime?        @map("scheduled_at")
+
+  // SEO
+  metaTitle       String?          @map("meta_title")
+  metaDescription String?          @db.Text @map("meta_description")
+  metaKeywords    String?          @db.Text @map("meta_keywords")
+
+  // 统计
+  viewCount       Int              @default(0) @map("view_count")
+  readingTime     Int?             @map("reading_time") // 分钟数
+
+  // 作者信息
+  authorId        Int?             @map("author_id")
+  author          Admin?           @relation(fields: [authorId], references: [id])
+
+  createdAt       DateTime         @default(now()) @map("created_at")
+  updatedAt       DateTime         @updatedAt @map("updated_at")
+
+  // Relations
+  postTags        PostTag[]
+  postCategories  PostCategory[]
+
+  @@map("posts")
+}
+
+// 标签表
+model Tag {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  slug        String    @unique
+  description String?   @db.Text
+  color       String?   // 颜色代码如 #FF5733
+  createdAt   DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  postTags    PostTag[]
+
+  @@map("tags")
+}
+
+// 文章-标签关联表
+model PostTag {
+  postId    Int  @map("post_id")
+  tagId     Int  @map("tag_id")
+
+  post      Post @relation(fields: [postId], references: [id], onDelete: Cascade)
+  tag       Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([postId, tagId])
+  @@map("post_tags")
+}
+
+// 分类表
+model Category {
+  id          Int        @id @default(autoincrement())
+  name        String     @unique
+  slug        String     @unique
+  description String?    @db.Text
+  parentId    Int?       @map("parent_id")
+  parent      Category?  @relation("CategoryToCategory", fields: [parentId], references: [id])
+  children    Category[] @relation("CategoryToCategory")
+  createdAt   DateTime   @default(now()) @map("created_at")
+
+  // Relations
+  postCategories PostCategory[]
+
+  @@map("categories")
+}
+
+// 文章-分类关联表
+model PostCategory {
+  postId     Int      @map("post_id")
+  categoryId Int      @map("category_id")
+
+  post       Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([postId, categoryId])
+  @@map("post_categories")
+}
+
+// 媒体库表
+model Media {
+  id           Int       @id @default(autoincrement())
+  filename     String
+  originalName String?   @map("original_name")
+  filePath     String    @map("file_path")
+  fileUrl      String    @map("file_url")
+  fileSize     Int?      @map("file_size")
+  mimeType     String?   @map("mime_type")
+  width        Int?
+  height       Int?
+  uploadedById Int?      @map("uploaded_by")
+  uploadedBy   Admin?    @relation(fields: [uploadedById], references: [id])
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  @@map("media")
+}
+
+// 操作日志表
+model ActivityLog {
+  id          Int       @id @default(autoincrement())
+  adminId     Int?      @map("admin_id")
+  admin       Admin?    @relation(fields: [adminId], references: [id])
+  action      String    // create, update, delete, login
+  entityType  String?   @map("entity_type") // post, tag, category
+  entityId    Int?      @map("entity_id")
+  description String?   @db.Text
+  ipAddress   String?   @map("ip_address")
+  createdAt   DateTime  @default(now()) @map("created_at")
+
+  @@map("activity_logs")
+}

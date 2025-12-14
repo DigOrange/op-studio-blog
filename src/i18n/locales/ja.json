@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "about": "について",
+    "contact": "お問い合わせ",
+    "social": "ソーシャル",
+    "improvementHistory": "改善履歴"
+  },
+  "hero": {
+    "badge": "AI & 生産性",
+    "title": "AIで生産性を向上",
+    "subtitle": "AIツールと技術を探索し、効率性と創造性を高めましょう",
+    "viewBlog": "ブログを見る",
+    "learnMore": "詳細を見る"
+  },
+  "features": {
+    "aiTools": {
+      "title": "AIツール",
+      "description": "ワークフローを自動化する最新のAIツールとアプリケーションを発見"
+    },
+    "productivity": {
+      "title": "生産性のヒント",
+      "description": "効率を高める方法とベストプラクティスを学ぶ"
+    },
+    "tutorials": {
+      "title": "チュートリアル",
+      "description": "新しいスキルを習得するための詳細なチュートリアルとガイド"
+    }
+  },
+  "latestPosts": {
+    "title": "最新の記事",
+    "readMore": "続きを読む",
+    "viewAll": "すべて表示"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "q1": {
+      "question": "OP工作室とは何ですか?",
+      "answer": "OP工作室は、AI自動化と開発者の生産性に焦点を当てた技術ブログプラットフォームです。"
+    },
+    "q2": {
+      "question": "Claude Codeとは何ですか?",
+      "answer": "Claude CodeはAnthropicが開発したAIプログラミングアシスタントで、開発者のコーディング効率を向上させます。"
+    },
+    "q3": {
+      "question": "MCPとは何ですか?",
+      "answer": "MCP（Model Context Protocol）は、AIモデルとツール間の通信のためのプロトコルです。"
+    },
+    "q4": {
+      "question": "ブログではどのようなトピックを扱っていますか?",
+      "answer": "AIツール、自動化、開発者ツール、生産性のヒントなどのトピックを扱っています。"
+    },
+    "q5": {
+      "question": "著者に連絡するにはどうすればよいですか?",
+      "answer": "ソーシャルメディアまたはお問い合わせページからご連絡いただけます。"
+    }
+  },
+  "footer": {
+    "description": "AIツールと技術を探索し、生産性を向上させましょう",
+    "links": {
+      "title": "クイックリンク",
+      "home": "ホーム",
+      "blog": "ブログ",
+      "about": "について",
+      "contact": "お問い合わせ",
+      "social": "ソーシャル",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "social": {
+      "title": "フォローする"
+    },
+    "copyright": "© 2025 OP工作室. All rights reserved."
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "notFound": "見つかりません",
+    "search": "検索",
+    "publishedAt": "公開日",
+    "readingTime": "{minutes}分で読めます"
+  }
+}

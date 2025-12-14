@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "首页",
+    "blog": "博客",
+    "about": "关于",
+    "contact": "联系方式",
+    "social": "社交媒体",
+    "improvementHistory": "改进历史"
+  },
+  "hero": {
+    "badge": "AI & 生产力",
+    "title": "用AI 提升生产力",
+    "subtitle": "探索AI工具和技术,提升您的工作效率和创造力",
+    "viewBlog": "查看博客",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "aiTools": {
+      "title": "AI工具",
+      "description": "发现最新的AI工具和应用,帮助您自动化工作流程"
+    },
+    "productivity": {
+      "title": "生产力技巧",
+      "description": "学习提高效率的方法和最佳实践"
+    },
+    "tutorials": {
+      "title": "教程",
+      "description": "详细的教程和指南,助您掌握新技能"
+    }
+  },
+  "latestPosts": {
+    "title": "最新文章",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部"
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": {
+      "question": "OP工作室是什么?",
+      "answer": "OP工作室是一个专注于AI自动化和开发者生产力的技术博客平台。"
+    },
+    "q2": {
+      "question": "Claude Code是什么?",
+      "answer": "Claude Code是Anthropic开发的AI编程助手,可以帮助开发者提高编码效率。"
+    },
+    "q3": {
+      "question": "MCP是什么?",
+      "answer": "MCP (Model Context Protocol) 是一个用于AI模型与工具通信的协议。"
+    },
+    "q4": {
+      "question": "博客涵盖哪些主题?",
+      "answer": "我们的博客涵盖AI工具、自动化、开发者工具、生产力技巧等主题。"
+    },
+    "q5": {
+      "question": "如何联系作者?",
+      "answer": "您可以通过社交媒体或联系页面与我们联系。"
+    }
+  },
+  "footer": {
+    "description": "探索AI工具和技术,提升您的生产力",
+    "links": {
+      "title": "快速链接",
+      "home": "首页",
+      "blog": "博客",
+      "about": "关于",
+      "contact": "联系方式",
+      "social": "社交媒体",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    },
+    "social": {
+      "title": "关注我们"
+    },
+    "copyright": "© 2025 OP工作室. 保留所有权利."
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "notFound": "未找到",
+    "search": "搜索",
+    "publishedAt": "发布于",
+    "readingTime": "{minutes} 分钟阅读"
+  }
+}

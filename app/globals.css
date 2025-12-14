@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light theme colors */
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --secondary: #f3f4f6;
+  --accent: #6366f1;
+  --border: #e5e7eb;
+  --card: #ffffff;
+  --card-hover: #f9fafb;
+}
+
+.dark {
+  /* Dark theme colors */
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --primary: #6366f1;
+  --primary-hover: #818cf8;
+  --secondary: #1f2937;
+  --accent: #818cf8;
+  --border: #374151;
+  --card: #111827;
+  --card-hover: #1f2937;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* 隐藏 Stack Auth OAuth 按钮组 (GitHub 和 Google) */
+/* 基于用户提供的 DOM 结构：包含 "Sign in with GitHub" 和 "Sign in with Google" 的容器 */
+div.stack-scope.gap-4.flex.flex-col.items-stretch[data-cursor-element-id="cursor-el-75"] {
+  display: none !important;
+}
+
+/* 更通用的选择器：隐藏所有包含 OAuth 按钮的 stack-scope 容器 */
+div.stack-scope.gap-4.flex.flex-col.items-stretch:has(button[aria-label*="GitHub"]),
+div.stack-scope.gap-4.flex.flex-col.items-stretch:has(button[aria-label*="Google"]) {
+  display: none !important;
+}
+
+/* 备用方案：如果上述选择器不工作，使用这个更宽泛的选择器 */
+div#stack-full-page-container-_r_6_ > div > div > div.stack-scope.gap-4.flex.flex-col.items-stretch {
+  display: none !important;
+}
+
+/* 隐藏登录页面标题文本 "Sign in to your account Don't have an account? Sign up" */
+div.text-center.mb-6[data-cursor-element-id="cursor-el-70"] {
+  display: none !important;
+}
+
+/* 备用方案：使用更通用的选择器 */
+div#stack-full-page-container-_r_6_ > div > div.text-center.mb-6 {
+  display: none !important;
+}
+
+/* 隐藏分隔符文本 "Or continue with" */
+div.flex.items-center.justify-center.my-6.stack-scope[data-cursor-element-id="cursor-el-100"] {
+  display: none !important;
+}
+
+/* 备用方案：使用更通用的选择器 */
+div#stack-full-page-container-_r_6_ > div > div.flex.items-center.justify-center.my-6.stack-scope {
+  display: none !important;
+}
+
+/* 隐藏 Cursor 编辑器调试工具元素 */
+div[data-cursor-element-id][style*="position: fixed"][style*="background: rgb(58, 150, 221)"] {
+  display: none !important;
+}

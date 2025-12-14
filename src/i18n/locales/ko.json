@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "홈",
+    "blog": "블로그",
+    "about": "소개",
+    "contact": "연락처",
+    "social": "소셜",
+    "improvementHistory": "개선 이력"
+  },
+  "hero": {
+    "badge": "AI & 생산성",
+    "title": "AI로 생산성 향상",
+    "subtitle": "AI 도구와 기술을 탐색하여 효율성과 창의성을 높이세요",
+    "viewBlog": "블로그 보기",
+    "learnMore": "더 알아보기"
+  },
+  "features": {
+    "aiTools": {
+      "title": "AI 도구",
+      "description": "워크플로우를 자동화하는 최신 AI 도구 및 애플리케이션 발견"
+    },
+    "productivity": {
+      "title": "생산성 팁",
+      "description": "효율성을 높이는 방법과 모범 사례 학습"
+    },
+    "tutorials": {
+      "title": "튜토리얼",
+      "description": "새로운 기술을 익히는 데 도움이 되는 상세한 튜토리얼 및 가이드"
+    }
+  },
+  "latestPosts": {
+    "title": "최신 게시물",
+    "readMore": "더 읽기",
+    "viewAll": "모두 보기"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "q1": {
+      "question": "OP工作室는 무엇인가요?",
+      "answer": "OP工作室는 AI 자동화 및 개발자 생산성에 중점을 둔 기술 블로그 플랫폼입니다."
+    },
+    "q2": {
+      "question": "Claude Code는 무엇인가요?",
+      "answer": "Claude Code는 Anthropic에서 개발한 AI 프로그래밍 어시스턴트로, 개발자의 코딩 효율성을 향상시킵니다."
+    },
+    "q3": {
+      "question": "MCP는 무엇인가요?",
+      "answer": "MCP(Model Context Protocol)는 AI 모델과 도구 간의 통신을 위한 프로토콜입니다."
+    },
+    "q4": {
+      "question": "블로그에서 다루는 주제는 무엇인가요?",
+      "answer": "AI 도구, 자동화, 개발자 도구, 생산성 팁 등의 주제를 다룹니다."
+    },
+    "q5": {
+      "question": "저자에게 어떻게 연락하나요?",
+      "answer": "소셜 미디어 또는 연락처 페이지를 통해 연락하실 수 있습니다."
+    }
+  },
+  "footer": {
+    "description": "AI 도구와 기술을 탐색하여 생산성을 높이세요",
+    "links": {
+      "title": "빠른 링크",
+      "home": "홈",
+      "blog": "블로그",
+      "about": "소개",
+      "contact": "연락처",
+      "social": "소셜",
+      "privacy": "개인정보 처리방침",
+      "terms": "이용 약관"
+    },
+    "social": {
+      "title": "팔로우하기"
+    },
+    "copyright": "© 2025 OP工作室. All rights reserved."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "notFound": "찾을 수 없음",
+    "search": "검색",
+    "publishedAt": "게시일",
+    "readingTime": "{minutes}분 읽기"
+  }
+}
